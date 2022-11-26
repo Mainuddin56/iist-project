@@ -1,0 +1,134 @@
+body{
+    background:url(./assets/images/bg_main.gif) center;
+}
+/* Header Part Start */
+.cont{
+width: 1000px;
+margin: 0 auto;
+
+}
+.topbar{
+    height: 30px;
+    background: rgb(158, 104, 158);
+    color: white;
+    font-size: 13px;
+    line-height: 30px;
+    border-bottom: 1px solid red;
+}
+.header_right p{
+    display: inline-block;
+    border-right: 1px solid white;
+    padding-right: 10px;
+}
+.header_right a{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+}
+/* Header Part End */
+/* Logo Part Start */
+.logo{
+    height: 110px;
+}
+.logo_left{
+    line-height: 110px;
+}
+.logo_search{
+    padding-top: 45px;
+}
+.logo_right{
+    padding-top: 35px;
+
+}
+.logo1{
+    border-right: 1px solid rgb(241, 229, 229);
+    padding-right: 10px;
+}
+.logo1 img{
+    position: relative;
+    top: 15px;
+}
+.logo2{
+    padding-left: 10px;
+}
+.logo2 h5{
+    font-size: 13px;
+    color: #683091;
+
+}
+input{
+    width: 75%;
+
+}
+.logo_search button{
+    background: rgb(231, 220, 220);
+    font-size: 15px;
+    
+}
+
+/* Logo Part End */
+/* Menu Part Start */
+.main_menu a{
+    border-right: 1px solid black;
+}
+.main_menu a:hover{
+    background: rgb(224, 134, 217);
+}
+/* Menu Part End */
+/* Hero Part Start */
+.banner img{
+    border: 2px solid red;
+    padding: 10px;
+    
+}
+.slider img{
+    height: 300px;
+}
+form select{
+    width: 75%;
+    border: 1px solid #ddd;
+    padding: 5px;
+    font-size: 13px;
+    background:#ddd;
+    border-radius: 5px;
+}
+form button{
+    width: 20%;
+    border: 1px solid #ddd;
+    padding: 5px;
+    font-size: 13px;
+    background:#ddd;
+    border-radius: 5px;
+}
+.side_video h5{
+    background:green;
+    color:#fff;
+    padding: 5px;
+}
+.side_video h6{
+    font-size: 14px;
+    padding: 5px;
+}
+.side_video img{
+    height: 200px;
+}
+.list ul{
+    list-style: none;
+
+}
+
+.list ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    border-bottom: 1px solid green;
+    padding: 2px;
+}
+.list ul li a:hover{
+    color: green;
+}
+.list h5{
+    font-size: 14px;
+    color: purple;
+}
+/* Hero Part End */
+/*  */
